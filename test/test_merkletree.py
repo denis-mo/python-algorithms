@@ -1,5 +1,5 @@
 import unittest
-from merkletree.merkletree import MerkleTree, sha
+from merkletree import MerkleTree, sha
 
 
 class TestMerkleTree(unittest.TestCase):
