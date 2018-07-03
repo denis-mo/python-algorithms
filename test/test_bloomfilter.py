@@ -2,7 +2,6 @@ import unittest
 
 from bloomfilter import BloomFilter
 
-
 class TestBloomFilter(unittest.TestCase):
     def test_contains(self):
         bf = BloomFilter()
@@ -21,3 +20,6 @@ class TestBloomFilter(unittest.TestCase):
         test3 = bf.test("t5")
         # making few checks to eliminate test failings on false positives
         self.assertFalse(test1 and test2 and test3)
+
+if __name__ == '__main__':
+    unittest.main()

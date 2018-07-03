@@ -1,7 +1,6 @@
 import mmh3
 from bitarray import bitarray
 
-
 class BloomFilter:
     def __init__(self, m=42, k=3):
         self.bits = bitarray(m)
@@ -11,7 +10,6 @@ class BloomFilter:
 
     def add(self, el):
         el_bits = self.__generate_bits(el)
-        print(el_bits)
         for i in el_bits:
             self.bits[i] = 1
 
