@@ -1,4 +1,4 @@
-# python-algorithms
+# Python algorithms
 Algorithms written in Python 3 language.
 Currently there are two algorithms:
 * [Bloom Filter](https://github.com/denis-mo/python-algorithms/blob/master/bloomfilter.py)
